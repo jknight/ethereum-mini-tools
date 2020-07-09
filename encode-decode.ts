@@ -3,8 +3,12 @@ import {ethers} from 'ethers';
 //Jeffrey Knight <jknight@derivadex.com>
 //Jul 9, 2020 at 4:33:39 PM
 
-const mnemonic = 'remove merit blouse relief surface birth bone audit fee remove shoot easily';
+// Mnemonic generator for testing: https://allprivatekeys.com/mnemonic-code-converter#english
 
+// Add your mnemonic here (SECURITY NOTE: use a test mnemonic only!)
+const mnemonic = 'inflict stairs vast caution vacant female boring label mandate more cash heart pen school pattern';
+
+// The message to encode
 const message = 'hello';
 
 async function encode(message: string, mnemonic: string) {
