@@ -7,7 +7,7 @@
     "author": "Jeffrey Knight <jeffrey.knight@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "run": "ts-node encode-decode.ts"
+        "encode": "ts-node encode-decode.ts"
     },
 
     "dependencies": {
