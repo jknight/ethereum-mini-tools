@@ -7,14 +7,10 @@
     "author": "Jeffrey Knight <jeffrey.knight@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "build": "yarn clean && tsc -b",
-        "clean": "rm *.js",
-        "run": "tsc encode-decode.ts"
+        "run": "ts-node encode-decode.ts"
     },
 
     "dependencies": {
-        "@types/node": "^11.11.6",
-        "ethers": "^5.0.5",
-        "node": "^14.5.0"
+        "ethers": "^5.0.5"
     }
 }
