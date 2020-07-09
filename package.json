@@ -1,13 +1,20 @@
 {
-  "name": "ethereum-mini-tools",
-  "version": "1.0.0",
-  "description": "Simple Tools for Ethereum",
-  "main": "index.ts",
-  "repository": "https://github.com/jknight/ethereum-mini-tools.git",
-  "author": "Jeffrey Knight <jeffrey.knight@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "ethers": "^5.0.5",
-    "node": "^14.5.0"
-  }
+    "name": "ethereum-mini-tools",
+    "version": "1.0.0",
+    "description": "Simple Tools for Ethereum",
+    "main": "index.ts",
+    "repository": "https://github.com/jknight/ethereum-mini-tools.git",
+    "author": "Jeffrey Knight <jeffrey.knight@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "yarn clean && tsc -b",
+        "clean": "rm *.js",
+        "run": "tsc encode-decode.ts"
+    },
+
+    "dependencies": {
+        "@types/node": "^11.11.6",
+        "ethers": "^5.0.5",
+        "node": "^14.5.0"
+    }
 }
