@@ -9,8 +9,9 @@
     "scripts": {
         "encode": "ts-node encode-decode.ts"
     },
-
     "dependencies": {
-        "ethers": "^5.0.5"
+        "ethers": "^5.0.5",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.6"
     }
 }
